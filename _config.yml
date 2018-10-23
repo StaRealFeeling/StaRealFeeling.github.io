@@ -1,8 +1,8 @@
 # Site settings
 title: StaRealFeeling Blog
-description: "A blog about lorem ipsum ..."
+description: "A blog about StaRealFeeling"
 baseurl: "" # for test: remove string '/space-jekyll-template' to ''
-url: "http://starealfeeling.github.io/" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
+url: "http://starealfeeling.github.io" # for test: remove string 'http://victorvoid.github.io' to '' but in production: 'https://yourusername.githu.io'
 
 # User settings
 username: StaRealFeeling
@@ -49,10 +49,10 @@ links:
     - title: 我的 github
       url: https://github.com/StaRealFeeling/
       new_tab: true
-      key_trigger: 我的 csdn
-    - title: csdn
+      key_trigger: github
+    - title: 我的 csdn
       url: https://blog.csdn.net/StaRealFeeling
-      key_trigger: t
+      key_trigger: csdn
 
 # projects in header index
 projects:
