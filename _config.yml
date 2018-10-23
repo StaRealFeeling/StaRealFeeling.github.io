@@ -30,41 +30,36 @@ compress_html:
 # Links to include in menu navigation
 links:
   section_1:
-    - title: home
+    - title: 主页
       url: /
       key_trigger: 1
-    - title: my posts
+    - title: 我的文章
       url: /posts
       key_trigger: 2
-    - title: series
+    - title: 系列
       url: /series
       key_trigger: 3
-    - title: tags
+    - title: 分类
       url: /tags
       key_trigger: 4
-    - title: about me
+    - title: 关于我
       url: /about
       key_trigger: 5
   section_2:
-    - title: github
-      url: http://www.github.com/victorvoid
+    - title: 我的 github
+      url: https://github.com/StaRealFeeling/
       new_tab: true
-      key_trigger: g
-    - title: twitter
-      url: http://www.twitter.com/victorvoid
+      key_trigger: 我的 csdn
+    - title: csdn
+      url: https://blog.csdn.net/StaRealFeeling
       key_trigger: t
-    - title: search
-      url: ""
-      key_trigger: s #WARNING: search only works with "s"
 
 # projects in header index
 projects:
-  - name: fluany
-    url: https://github.com/fluany/fluany
-  - name: vim-frontend
-    url: https://github.com/victorvoid/vim-frontend
-  - name: generator-capybara
-    url: https://github.com/victorvoid/generator-capybara 
+  - name: ssm_hnust
+    url: https://github.com/StaRealFeeling/ssm_hnust
+  - name: IntelliJ-IDEA-Tutorial
+    url: https://github.com/StaRealFeeling/IntelliJ-IDEA-Tutorial
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
